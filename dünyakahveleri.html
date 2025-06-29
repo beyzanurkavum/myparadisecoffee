@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dünya Kahveleri</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .menu-list {
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+      max-width: 600px;
+      margin: 40px auto 0 auto;
+      padding: 0 12px;
+    }
+    .menu-card {
+      background:#fff ;
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      padding: 18px 24px;
+      box-shadow: 0 2px 12px #0001;
+      color:#6d3535 ;
+      justify-content: space-between;
+      min-height: 100px;
+      gap: 18px;
+    }
+    .menu-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 12px;
+      object-fit: cover;
+      background: #fff;
+      flex-shrink: 0;
+    }
+    .menu-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 18px;
+    }
+    .menu-title {
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+    .menu-price {
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin-left: 18px;
+      white-space: nowrap;
+    }
+    .section-title {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #ffffff;
+      margin: 40px auto 10px auto;
+      text-align: left;
+      letter-spacing: 1px;
+      position: relative;
+      max-width: 600px;
+      padding-left: 12px;
+    }
+    .section-title + hr {
+      border: none;
+      border-top: 2px solid #6d3535;
+      max-width: 600px;
+      margin: 0 auto 24px auto;
+      opacity: 0.5;
+      padding-left: 12px;
+    }
+    @media (max-width: 600px) {
+      .menu-card {
+        padding: 10px 6px;
+        gap: 8px;
+      }
+      .menu-img {
+        width: 80px;
+        height: 80px;
+      }
+      .menu-title {
+        font-size: 0.95rem;
+      }
+      .menu-price {
+        margin-left: 0;
+        font-size: 0.9rem;
+      }
+      .section-title {
+        font-size: 1.15rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="logo-bar">
+    <a href="index.html">
+      <img src="image/logo.png" alt="Logo" class="logo-img">
+    </a>
+  </div>
+  <div class="header">Dünya Kahveleri</div>
+  <div class="section-title">Sıcak Dünya Kahveleri</div>
+  <hr>
+  <div class="menu-list">
+    <div class="menu-card">
+      <img class="menu-img" src="image/icecekler/kahvemenu/lattestar.png" alt="Espresso">
+      <div class="menu-info">
+        <div class="menu-title">Latte</div>
+      </div>
+      <div class="menu-price">140 TL</div>
+    </div>
+    <div class="menu-card">
+      <img class="menu-img" src="image/icecekler/kahvemenu/americano.png" alt="Americano">
+      <div class="menu-info">
+        <div class="menu-title">Americano</div>
+      </div>
+      <div class="menu-price">120 TL</div>
+    </div>
+    <div class="menu-card">
+      <img class="menu-img" src="image/icecekler/kahvemenu/espresso.png" alt="Latte">
+      <div class="menu-info">
+        <div class="menu-title">Espresso (Single-100)</div>
+      </div>
+      <div class="menu-price">100 TL</div>
+    </div>
+    <div class="menu-card">
+        <img class="menu-img" src="image/icecekler/kahvemenu/espresso.png" alt="Latte">
+        <div class="menu-info">
+          <div class="menu-title">Espresso (Double-120)</div>
+        </div>
+        <div class="menu-price">120 TL</div>
+    </div>
+    <div class="menu-card">
+        <img class="menu-img" src="image/icecekler/kahvemenu/nut latte.jpg" alt="Latte">
+        <div class="menu-info">
+          <div class="menu-title">Coffee Nut Latte</div>
+        </div>
+        <div class="menu-price">160 TL</div>
+    </div>
+    <div class="menu-card">
+        <img class="menu-img" src="image/icecekler/kahvemenu/karamellatte.jpg" alt="Latte">
+        <div class="menu-info">
+          <div class="menu-title">Caramel Latte</div>
+        </div>
+        <div class="menu-price">150 TL</div>
+    </div>
+    <div class="menu-card">
+        <img class="menu-img" src="image/icecekler/kahvemenu/mocha.png" alt="Latte">
+        <div class="menu-info">
+          <div class="menu-title">Mocha</div>
+        </div>
+        <div class="menu-price">150 TL</div>
+    </div>
+    <div class="menu-card">
+        <img class="menu-img" src="image/icecekler/kahvemenu/whitemocha.png" alt="Latte">
+        <div class="menu-info">
+          <div class="menu-title">White Chocolate Mocha</div>
+        </div>
+        <div class="menu-price">150 TL</div>
+    </div>
+    <div class="menu-card">
+        <img class="menu-img" src="image/icecekler/kahvemenu/chaitealatte.jpg" alt="Latte">
+        <div class="menu-info">
+          <div class="menu-title">Chia Tea Latte</div>
+        </div>
+        <div class="menu-price">160 TL</div>
+    </div>
+    <div class="menu-card">
+        <img class="menu-img" src="image/icecekler/kahvemenu/cappucıona.png" alt="Latte">
+        <div class="menu-info">
+          <div class="menu-title">Cappuccino</div>
+        </div>
+        <div class="menu-price">140 TL</div>
+    </div>
+    <div class="menu-card">
+        <img class="menu-img" src="image/icecekler/kahvemenu/filtrekahve.png" alt="Latte">
+        <div class="menu-info">
+          <div class="menu-title">Filtre Kahve</div>
+        </div>
+        <div class="menu-price">130 TL</div>
+    </div>
+    <div class="menu-card">
+        <img class="menu-img" src="image/icecekler/kahvemenu/flatwhite.png" alt="Latte">
+        <div class="menu-info">
+          <div class="menu-title">Flat White</div>
+          <div class="menu-desc">50 ml Espresso ile Yumuşak İçim</div>
+        </div>
+        <div class="menu-price">140 TL</div>
+    </div>
+
+
+
+  </div>
+  <div class="section-title">Soğuk Dünya Kahveleri</div>
+  <hr>
+  <div class="menu-list">
+    <div class="menu-card">
+      <img class="menu-img" src="image/icecekler/kahvemenu/icelatte.jpg" alt="Cold Brew">
+      <div class="menu-info">
+        <div class="menu-title">Iced Latte</div>
+      </div>
+      <div class="menu-price">150 TL</div>
+    </div>
+    <div class="menu-card">
+      <img class="menu-img" src="image/icecekler/kahvemenu/iceamericano.png" alt="Iced Americano">
+      <div class="menu-info">
+        <div class="menu-title">Iced Americano</div>
+      </div>
+      <div class="menu-price">130 TL</div>
+    </div>
+    <div class="menu-card">
+      <img class="menu-img" src="image/icecekler/kahvemenu/icemocha.png" alt="Iced Latte">
+      <div class="menu-info">
+        <div class="menu-title">Iced Mocha</div>
+      </div>
+      <div class="menu-price">150 TL</div>
+    </div>
+    <div class="menu-card">
+        <img class="menu-img" src="image/icecekler/kahvemenu/icewhitemocha.png" alt="Iced Latte">
+        <div class="menu-info">
+          <div class="menu-title">Iced White Mocha</div>
+        </div>
+        <div class="menu-price">150 TL</div>
+    </div>
+    <div class="menu-card">
+        <img class="menu-img" src="image/icecekler/kahvemenu/icekarameklatte.png" alt="Cold Brew">
+        <div class="menu-info">
+          <div class="menu-title">Iced Caramel Latte</div>
+        </div>
+        <div class="menu-price">150 TL</div>
+    </div>
+    <div class="menu-card">
+        <img class="menu-img" src="image/icecekler/kahvemenu/icechailatte.jpg" alt="Cold Brew">
+        <div class="menu-info">
+          <div class="menu-title">Iced Chia Tea Latte</div>
+        </div>
+        <div class="menu-price">170 TL</div>
+    </div>
+  </div>
+  <footer style="margin-top:40px; background:#fff; padding:32px 0 16px 0; text-align:center;">
+    <img src="image/logo.png" alt="Logo" style="width:120px; margin-bottom:16px;">
+    <div style="margin:12px 0;">
+      <a href="https://www.instagram.com/my.paradise23?igsh=MTg0ZGNidjZwM2RyZQ==" target="_blank" style="margin:0 8px; display:inline-block; vertical-align:middle;">
+        <img src="image/instagram.png" alt="Instagram" style="width:28px; height:28px; object-fit:contain;">
+      </a>
+    </div>
+    <div style="margin:10px 0; color:#3a5d2c; font-size:1.1em;">
+      <i class="fa fa-phone"></i> Rezervasyon İçin:+90 534 718 38 23 Yusuf KESKİN
+    </div>
+    <div style="margin:10px 0;">
+      <i class="fa fa-envelope" style="color:#3a5d2c;"></i>
+    </div>
+    <div style="margin:18px 0 6px 0; color:#3a5d2c; font-weight:bold;">
+      <i class="fa fa-map-marker"></i> KONUMUMUZ:Elsyum Avm Otopark Girişi Karşısı Elazığ/Merkez
+    </div>
+    <div style="margin:6px 0 18px 0; color:#3a5d2c;">
+      <i class="fa fa-clock-o"></i> 09:00 - 02:00
+    </div>
+    <hr style="width:60%; margin:18px auto; opacity:0.3;">
+    <div style="color:#888; font-size:0.95em;">
+      Her hakkı saklıdır<br>Gizlilik Politikası<br>Yasal Uyarı
+    </div>
+  </footer>
+</body>
+</html>

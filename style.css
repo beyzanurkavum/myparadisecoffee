@@ -1,0 +1,128 @@
+body {
+  background: #6d3535;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 40px 0 30px 0;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 60px;
+}
+.card {
+  width: 320px;
+  height: 220px;
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 0 24px 0 #00000033;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s;
+  text-decoration: none;
+}
+.card:hover {
+  transform: scale(1.04);
+}
+.card-title {
+  background: #000a;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 12px 0 0 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+}
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  opacity: 0.85;
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 30px;
+  }
+  .card {
+    width: 90vw;
+    max-width: 350px;
+    height: 180px;
+  }
+  .header {
+    font-size: 2rem;
+    margin: 30px 0 20px 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    font-size: 1.3rem;
+    margin: 18px 0 12px 10px;
+  }
+  .card {
+    height: 120px;
+    max-width: 98vw;
+  }
+  .card-title {
+    font-size: 1rem;
+    padding: 8px 14px;
+  }
+}
+
+.logo-bar {
+  width: 100vw;
+  min-width: 100vw;
+  max-width: 100vw;
+  height: 80px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.logo-img {
+  width: auto;
+  max-width: 240px;
+  max-height: 80px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .logo-bar {
+    height: 48px;
+  }
+  .logo-img {
+    max-height: 44px;
+    max-width: 98vw;
+  }
+} 

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frappe Çeşitleri</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .menu-list {
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+      max-width: 600px;
+      margin: 40px auto 0 auto;
+      padding: 0 12px;
+    }
+    .menu-card {
+      background:#fff ;
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      padding: 18px 24px;
+      box-shadow: 0 2px 12px #0001;
+      color:#6d3535 ;
+      justify-content: space-between;
+      min-height: 100px;
+      gap: 18px;
+    }
+    .menu-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 12px;
+      object-fit: cover;
+      background: #fff;
+      flex-shrink: 0;
+    }
+    .menu-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 18px;
+    }
+    .menu-title {
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+    .menu-price {
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin-left: 18px;
+      white-space: nowrap;
+    }
+    @media (max-width: 600px) {
+      .menu-card {
+        padding: 10px 6px;
+        gap: 8px;
+      }
+      .menu-img {
+        width: 80px;
+        height: 80px;
+      }
+      .menu-title {
+        font-size: 0.95rem;
+      }
+      .menu-price {
+        margin-left: 0;
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="logo-bar">
+    <a href="index.html">
+      <img src="image/logo.png" alt="Logo" class="logo-img">
+    </a>
+  </div>
+  <div class="header">Frappe Çeşitleri</div>
+  <div class="menu-list">
+    <div class="menu-card">
+      <img class="menu-img" src="image/icecekler/caymenu/vanılyafrappe.jpg" alt="Sıcak Çikolata">
+      <div class="menu-info">
+        <div class="menu-title">Vanilyalı Frappe</div>
+      </div>
+      <div class="menu-price">160 TL</div>
+    </div>
+    <div class="menu-card">
+      <img class="menu-img" src="image/icecekler/caymenu/karamellifrappe.jpg" alt="Sıcak Beyaz Çikolata">
+      <div class="menu-info">
+        <div class="menu-title">Caramelli Frappe</div>
+      </div>
+      <div class="menu-price">160 TL</div>
+    </div>
+    <div class="menu-card">
+      <img class="menu-img" src="image/icecekler/caymenu/cıkolatafrapppe.jpg" alt="Salep">
+      <div class="menu-info">
+        <div class="menu-title">Çikolatalı Frappe</div>
+      </div>
+      <div class="menu-price">160 TL</div>
+    </div>
+    <div class="menu-card">
+      <img class="menu-img" src="image/icecekler/kahvemenu/frappe.png" alt="Salep">
+      <div class="menu-info">
+        <div class="menu-title">Klasik Frappe</div>
+      </div>
+      <div class="menu-price">140 TL</div>
+    </div>
+  </div>
+  <footer style="margin-top:40px; background:#fff; padding:32px 0 16px 0; text-align:center;">
+    <img src="image/logo.png" alt="Logo" style="width:120px; margin-bottom:16px;">
+    <div style="margin:12px 0;">
+      <a href="https://www.instagram.com/my.paradise23?igsh=MTg0ZGNidjZwM2RyZQ==" target="_blank" style="margin:0 8px; display:inline-block; vertical-align:middle;">
+        <img src="image/instagram.png" alt="Instagram" style="width:28px; height:28px; object-fit:contain;">
+      </a>
+    </div>
+    <div style="margin:10px 0; color:#3a5d2c; font-size:1.1em;">
+      <i class="fa fa-phone"></i> Rezervasyon İçin:+90 534 718 38 23 Yusuf KESKİN
+    </div>
+    <div style="margin:10px 0;">
+      <i class="fa fa-envelope" style="color:#3a5d2c;"></i>
+    </div>
+    <div style="margin:18px 0 6px 0; color:#3a5d2c; font-weight:bold;">
+      <i class="fa fa-map-marker"></i> KONUMUMUZ:Elsyum Avm Otopark Girişi Karşısı Elazığ/Merkez
+    </div>
+    <div style="margin:6px 0 18px 0; color:#3a5d2c;">
+      <i class="fa fa-clock-o"></i> 09:00 - 02:00
+    </div>
+    <hr style="width:60%; margin:18px auto; opacity:0.3;">
+    <div style="color:#888; font-size:0.95em;">
+      Her hakkı saklıdır<br>Gizlilik Politikası<br>Yasal Uyarı
+    </div>
+  </footer>
+</body>
+</html> 
